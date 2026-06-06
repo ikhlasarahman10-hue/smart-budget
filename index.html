@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartBudget.ai — Rekomendasi Anggaran Cerdas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-screen relative text-slate-800">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <!-- Navbar -->
+    <nav class="glass-card sticky top-4 mx-4 sm:mx-8 lg:mx-auto max-w-7xl z-50 px-6 py-4 mb-8 flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white shadow-lg">
+                <i class="fas fa-brain text-xl"></i>
+            </div>
+            <div>
+                <h1 class="text-xl font-bold tracking-tight text-slate-900 leading-none">SmartBudget<span class="text-blue-600">.ai</span></h1>
+                <p class="text-xs text-slate-500 font-medium">Sistem Rekomendasi Finansial v2.0</p>
+            </div>
+        </div>
+        <span class="hidden sm:inline text-sm font-medium text-slate-500"><i class="fas fa-circle text-green-500 text-[10px] mr-1"></i> Mesin AI Aktif</span>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+
+            <!-- LEFT: Form -->
+            <div class="lg:col-span-4 space-y-5" id="formColumn">
+                <div class="glass-card p-7 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-50 rounded-bl-full -z-10"></div>
+                    <h2 class="text-lg font-bold mb-5 text-slate-800"><i class="fas fa-sliders-h text-blue-500 mr-2"></i>Parameter Analisis</h2>
+
+                    <form id="budgetForm" class="space-y-4">
+                        <!-- Income -->
+                        <div>
+                            <label class="lbl">Pendapatan Bulanan</label>
+                            <div class="relative">
+                                <span class="input-icon-left text-slate-400 font-medium">Rp</span>
+                                <input type="text" id="income" required placeholder="8.000.000" class="inp pl-11" inputmode="numeric">
+                            </div>
+                        </div>
+
+                        <!-- Profile -->
+                        <div>
+                            <label class="lbl">Profil Gaya Hidup</label>
+                            <div class="relative">
+                                <i class="fas fa-user-tag input-icon-left text-slate-400"></i>
+                                <select id="profile" required class="inp pl-11 pr-10 cursor-pointer appearance-none">
+                                    <option value="" disabled selected>Pilih profil...</option>
+                                    <option value="Hemat">Hemat / Mahasiswa</option>
+                                    <option value="Standar">Standar / Pekerja</option>
+                                    <option value="Konsumtif">Konsumtif / Eksekutif</option>
+                                </select>
+                                <i class="fas fa-chevron-down absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 text-xs pointer-events-none"></i>
+                            </div>
+                        </div>
+
+                        <!-- User Type -->
+                        <div>
+                            <label class="lbl">Tipe Pengguna</label>
+                            <div class="relative">
+                                <i class="fas fa-id-card input-icon-left text-slate-400"></i>
+                                <select id="userType" class="inp pl-11 pr-10 cursor-pointer appearance-none">
+                                    <option value="anak_kos">Anak Kos</option>
+                                    <option value="lajang">Lajang Mandiri</option>
+                                    <option value="keluarga_kecil">Keluarga Kecil</option>
+                                    <option value="keluarga_anak_sekolah">Keluarga + Anak Sekolah</option>
+                                </select>
+                                <i class="fas fa-chevron-down absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 text-xs pointer-events-none"></i>
+                            </div>
+                        </div>
+
+                        <!-- City Tier -->
+                        <div>
+                            <label class="lbl">Biaya Hidup Lokasi</label>
+                            <div class="relative">
+                                <i class="fas fa-location-dot input-icon-left text-slate-400"></i>
+                                <select id="cityTier" class="inp pl-11 pr-10 cursor-pointer appearance-none">
+                                    <option value="murah">Murah</option>
+                                    <option value="sedang" selected>Sedang</option>
+                                    <option value="mahal">Mahal</option>
+                                </select>
+                                <i class="fas fa-chevron-down absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 text-xs pointer-events-none"></i>
+                            </div>
+                        </div>
+
+                        <!-- Budget Mode -->
+                        <div>
+                            <label class="lbl">Mode Budget</label>
+                            <div class="relative">
+                                <i class="fas fa-gauge-high input-icon-left text-slate-400"></i>
+                                <select id="budgetMode" class="inp pl-11 pr-10 cursor-pointer appearance-none">
+                                    <option value="normal">Normal</option>
+                                    <option value="hemat">Hemat</option>
+                                    <option value="darurat">Darurat</option>
+                                    <option value="agresif_menabung">Agresif Menabung</option>
+                                </select>
+                                <i class="fas fa-chevron-down absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 text-xs pointer-events-none"></i>
+                            </div>
+                        </div>
+
+                        <hr class="border-slate-100">
+
+                        <!-- Status Pernikahan -->
+                        <div>
+                            <label class="lbl">Status</label>
+                            <div class="relative">
+                                <i class="fas fa-ring input-icon-left text-slate-400"></i>
+                                <select id="maritalStatus" class="inp pl-11 pr-10 cursor-pointer appearance-none">
+                                    <option value="lajang">Lajang</option>
+                                    <option value="berkeluarga">Berkeluarga</option>
+                                </select>
+                                <i class="fas fa-chevron-down absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 text-xs pointer-events-none"></i>
+                            </div>
+                        </div>
+
+                        <!-- Family Section (hidden by default, shown when berkeluarga) -->
+                        <div id="familySection" class="hidden space-y-4 bg-slate-50/50 rounded-xl p-4 border border-slate-100">
+                            <p class="text-xs font-bold text-slate-500 uppercase tracking-wider flex items-center"><i class="fas fa-people-roof text-blue-400 mr-2"></i>Detail Keluarga</p>
+
+                            <!-- Family Size -->
+                            <div>
+                                <label class="lbl">Jumlah Anggota Keluarga</label>
+                                <div class="relative">
+                                    <i class="fas fa-users input-icon-left text-slate-400"></i>
+                                    <input type="number" id="familySize" value="2" min="1" max="20" class="inp pl-11">
+                                </div>
+                                <p class="text-xs text-slate-400 mt-1">Termasuk diri Anda & pasangan</p>
+                            </div>
+
+                            <!-- Num Children -->
+                            <div>
+                                <label class="lbl">Jumlah Anak</label>
+                                <div class="relative">
+                                    <i class="fas fa-child input-icon-left text-slate-400"></i>
+                                    <input type="number" id="numChildren" value="0" min="0" max="15" class="inp pl-11">
+                                </div>
+                            </div>
+
+                            <!-- Children Ages (dynamic) -->
+                            <div id="childrenAgesContainer" class="hidden space-y-2">
+                                <label class="lbl">Usia Masing-masing Anak</label>
+                                <div id="childrenAgesInputs" class="space-y-2"></div>
+                                <p class="text-xs text-slate-400">Balita (&lt;5 thn) vs usia sekolah mempengaruhi estimasi biaya.</p>
+                            </div>
+                        </div>
+
+                        <hr class="border-slate-100">
+
+                        <!-- Vehicle -->
+                        <div>
+                            <label class="lbl">Kendaraan Pribadi</label>
+                            <div class="relative">
+                                <i class="fas fa-motorcycle input-icon-left text-slate-400"></i>
+                                <select id="vehicle" class="inp pl-11 pr-10 cursor-pointer appearance-none">
+                                    <option value="none">Tidak punya (Ojol/Angkot)</option>
+                                    <option value="motor">Motor</option>
+                                    <option value="mobil">Mobil</option>
+                                    <option value="both">Motor & Mobil</option>
+                                </select>
+                                <i class="fas fa-chevron-down absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 text-xs pointer-events-none"></i>
+                            </div>
+                        </div>
+
+                        <!-- Housing -->
+                        <div>
+                            <label class="lbl">Tempat Tinggal</label>
+                            <div class="relative">
+                                <i class="fas fa-home input-icon-left text-slate-400"></i>
+                                <select id="housing" class="inp pl-11 pr-10 cursor-pointer appearance-none">
+                                    <option value="kos">Kos</option>
+                                    <option value="kontrakan">Kontrakan/Sewa</option>
+                                    <option value="cicilan">Cicilan KPR</option>
+                                    <option value="rumah_sendiri">Rumah Sendiri (Lunas)</option>
+                                </select>
+                                <i class="fas fa-chevron-down absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 text-xs pointer-events-none"></i>
+                            </div>
+                        </div>
+
+                        <!-- Water Source -->
+                        <div>
+                            <label class="lbl">Sumber Air</label>
+                            <div class="relative">
+                                <i class="fas fa-faucet input-icon-left text-slate-400"></i>
+                                <select id="waterSource" class="inp pl-11 pr-10 cursor-pointer appearance-none">
+                                    <option value="pdam">PDAM (Berbayar)</option>
+                                    <option value="sumur">Sumur (Termasuk / Gratis)</option>
+                                </select>
+                                <i class="fas fa-chevron-down absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 text-xs pointer-events-none"></i>
+                            </div>
+                        </div>
+
+                        <hr class="border-slate-100">
+
+                        <!-- Manual Fixed Costs -->
+                        <div class="space-y-3 bg-blue-50/40 rounded-xl p-4 border border-blue-100">
+                            <p class="text-xs font-bold text-blue-600 uppercase tracking-wider flex items-center"><i class="fas fa-pen-to-square mr-2"></i>Biaya Tetap Manual</p>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div>
+                                    <label class="lbl">Sewa/Cicilan</label>
+                                    <input type="text" id="fixedHousing" placeholder="Kosong = otomatis" class="inp" inputmode="numeric">
+                                </div>
+                                <div>
+                                    <label class="lbl">Listrik</label>
+                                    <input type="text" id="fixedElectricity" placeholder="Kosong = otomatis" class="inp" inputmode="numeric">
+                                </div>
+                                <div>
+                                    <label class="lbl">Air</label>
+                                    <input type="text" id="fixedWater" placeholder="Kosong = otomatis" class="inp" inputmode="numeric">
+                                </div>
+                                <div>
+                                    <label class="lbl">Internet</label>
+                                    <input type="text" id="fixedInternet" placeholder="Kosong = otomatis" class="inp" inputmode="numeric">
+                                </div>
+                                <div class="sm:col-span-2">
+                                    <label class="lbl">Transport</label>
+                                    <input type="text" id="fixedTransport" placeholder="Kosong = otomatis" class="inp" inputmode="numeric">
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit" id="submitBtn" class="w-full py-4 rounded-2xl shadow-lg shadow-blue-500/30 text-white font-bold transition-all hover:-translate-y-1 bg-slate-900 hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 flex justify-center items-center mt-2">
+                            <i class="fas fa-magic mr-2"></i> Hitung Rekomendasi
+                        </button>
+                    </form>
+                <!-- Saved Scenarios Card -->
+                <div id="savedScenariosCard" class="glass-card p-6 hidden animate-fade-in">
+                    <h3 class="text-sm font-bold text-slate-800 mb-3 flex items-center">
+                        <i class="fas fa-history text-blue-500 mr-2"></i>Skenario Tersimpan
+                    </h3>
+                    <div id="savedScenariosList" class="space-y-2.5 max-h-[250px] overflow-y-auto pr-1"></div>
+                    <button id="compareBtn" class="w-full mt-4 py-3 rounded-xl text-white bg-slate-900 hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 font-bold transition-all text-xs flex justify-center items-center shadow-md shadow-blue-500/10">
+                        <i class="fas fa-code-compare mr-2"></i> Bandingkan Skenario (<span id="compareCount">0</span>)
+                    </button>
+                </div>
+            </div>
+        </div>
+
+            <!-- RIGHT: Results -->
+            <div class="lg:col-span-8">
+
+                <!-- Empty State -->
+                <div id="emptyState" class="glass-card h-full min-h-[520px] flex flex-col items-center justify-center p-12 text-center animate-fade-in relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-blue-100 to-purple-50 rounded-full blur-3xl opacity-50 -z-10"></div>
+                    <div class="w-28 h-28 mb-6 relative">
+                        <div class="absolute inset-0 bg-blue-100 rounded-full animate-ping opacity-20"></div>
+                        <div class="w-full h-full bg-gradient-to-br from-blue-100 to-purple-100 rounded-full flex items-center justify-center"><i class="fas fa-coins text-5xl text-blue-500"></i></div>
+                    </div>
+                    <h2 class="text-3xl font-bold text-slate-800 mb-3">Kelola Keuangan <span class="gradient-text">Lebih Pintar</span></h2>
+                    <p class="text-slate-500 max-w-md text-lg">Isi data Anda di panel kiri. AI akan menghitung alokasi anggaran terbaik secara otomatis.</p>
+                    <div class="grid grid-cols-3 gap-6 mt-8 max-w-sm w-full border-t border-slate-200 pt-6">
+                        <div class="text-center"><div class="w-10 h-10 mx-auto bg-blue-50 text-blue-500 rounded-lg flex items-center justify-center mb-1"><i class="fas fa-database"></i></div><span class="text-[11px] font-bold text-slate-400 uppercase">Data Riil</span></div>
+                        <div class="text-center"><div class="w-10 h-10 mx-auto bg-purple-50 text-purple-500 rounded-lg flex items-center justify-center mb-1"><i class="fas fa-project-diagram"></i></div><span class="text-[11px] font-bold text-slate-400 uppercase">K-Means</span></div>
+                        <div class="text-center"><div class="w-10 h-10 mx-auto bg-green-50 text-green-500 rounded-lg flex items-center justify-center mb-1"><i class="fas fa-users"></i></div><span class="text-[11px] font-bold text-slate-400 uppercase">Keluarga</span></div>
+                    </div>
+                </div>
+
+                <!-- Error State -->
+                <div id="errorPanel" class="hidden bg-red-50 border border-red-200 rounded-xl p-4 mb-6 text-sm text-red-700">
+                    <div class="flex items-start">
+                        <i class="fas fa-exclamation-triangle mt-0.5 mr-3 text-red-400"></i>
+                        <span id="errorMessage"></span>
+                    </div>
+                </div>
+
+                <!-- Loading State -->
+                <div id="loadingState" class="hidden glass-card h-full min-h-[520px] flex flex-col items-center justify-center p-12 text-center">
+                    <div class="loader mb-6"></div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Menganalisis Profil Keluarga...</h3>
+                    <p class="text-slate-500">Menghitung kebutuhan, keinginan & tabungan optimal.</p>
+                </div>
+
+                <!-- Results -->
+                <div id="resultsContainer" class="hidden space-y-6 animate-slide-up">
+                    
+                    <!-- Results Toolbar -->
+                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3 bg-white/60 backdrop-blur-md rounded-2xl p-4 border border-white/60 shadow-sm">
+                        <div class="flex flex-wrap items-center gap-3">
+                            <div class="flex items-center space-x-2">
+                                <span class="w-2.5 h-2.5 rounded-full bg-green-500 animate-pulse"></span>
+                                <span class="text-xs font-bold text-slate-500 uppercase tracking-wider">Hasil Rekomendasi AI</span>
+                            </div>
+                            <div id="healthBadgeContainer" class="flex flex-wrap items-center gap-2"></div>
+                        </div>
+                        <div class="flex flex-wrap items-center gap-2 w-full sm:w-auto">
+                            <button id="saveScenarioBtn" class="px-4 py-2.5 rounded-xl text-xs font-bold text-white bg-slate-900 hover:bg-blue-600 flex items-center transition-all shadow-md shadow-slate-900/10 shrink-0">
+                                <i class="fas fa-floppy-disk mr-1.5"></i> Simpan Skenario
+                            </button>
+                            <button id="scrollToFormBtn" class="lg:hidden px-4 py-2.5 rounded-xl text-xs font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 flex items-center transition-all shadow-sm shrink-0">
+                                <i class="fas fa-sliders-h mr-1.5"></i> Ubah Parameter
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Warnings -->
+                    <div id="warningsContainer" class="hidden space-y-3"></div>
+
+                    <!-- Budget Rule Cards + Chart -->
+                    <div class="grid grid-cols-1 md:grid-cols-12 gap-5">
+                        <div class="md:col-span-5 glass-card p-6 flex flex-col items-center justify-center">
+                            <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-4 w-full text-left">Distribusi Anggaran</h3>
+                            <div class="relative w-44 h-44"><canvas id="budgetChart"></canvas></div>
+                            <div class="flex flex-wrap justify-center gap-x-4 gap-y-2 mt-4 text-xs font-semibold w-full">
+                                <span class="flex items-center"><span class="w-3 h-3 rounded-full bg-blue-500 mr-1"></span>Kebutuhan <span id="needsPctLabel" class="ml-1 text-slate-400"></span></span>
+                                <span class="flex items-center"><span class="w-3 h-3 rounded-full bg-purple-500 mr-1"></span>Keinginan <span id="wantsPctLabel" class="ml-1 text-slate-400"></span></span>
+                                <span class="flex items-center"><span class="w-3 h-3 rounded-full bg-green-500 mr-1"></span>Tabungan <span id="savingsPctLabel" class="ml-1 text-slate-400"></span></span>
+                            </div>
+
+                            <!-- Interactive Slider Panel -->
+                            <div class="w-full mt-6 pt-4 border-t border-slate-100/80 space-y-3.5 text-xs font-semibold text-slate-600">
+                                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-2 flex justify-between items-center">
+                                    <span>Penyesuaian Manual</span>
+                                    <button id="resetSlidersBtn" class="text-blue-500 hover:text-blue-700 transition-colors flex items-center bg-blue-50 hover:bg-blue-100/80 px-2 py-1 rounded">
+                                        <i class="fas fa-undo mr-1 text-[9px]"></i> Reset AI
+                                    </button>
+                                </p>
+                                
+                                <!-- Slider Kebutuhan -->
+                                <div class="space-y-1">
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-blue-500 mr-1.5"></span>Kebutuhan</span>
+                                        <span class="font-bold text-slate-800" id="needsSliderVal">50%</span>
+                                    </div>
+                                    <input type="range" id="needsSlider" min="10" max="85" step="1" class="w-full h-1.5 bg-slate-100 rounded-lg appearance-none cursor-pointer accent-blue-500">
+                                </div>
+
+                                <!-- Slider Keinginan -->
+                                <div class="space-y-1">
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-purple-500 mr-1.5"></span>Keinginan</span>
+                                        <span class="font-bold text-slate-800" id="wantsSliderVal">30%</span>
+                                    </div>
+                                    <input type="range" id="wantsSlider" min="0" max="70" step="1" class="w-full h-1.5 bg-slate-100 rounded-lg appearance-none cursor-pointer accent-purple-500">
+                                </div>
+
+                                <!-- Slider Tabungan -->
+                                <div class="space-y-1">
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-green-500 mr-1.5"></span>Tabungan</span>
+                                        <span class="font-bold text-slate-800" id="savingsSliderVal">20%</span>
+                                    </div>
+                                    <input type="range" id="savingsSlider" min="5" max="50" step="1" class="w-full h-1.5 bg-slate-100 rounded-lg appearance-none cursor-pointer accent-green-500">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md:col-span-7 space-y-3" id="budgetCards">
+                            <div class="budget-card border-l-blue-500" id="needsCard">
+                                <div class="flex justify-between items-center relative z-10">
+                                    <div><p class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-1">Kebutuhan (<span id="needsPct2">50</span>%)</p><h3 class="text-2xl font-bold" id="needsAmount">Rp 0</h3></div>
+                                    <div class="w-10 h-10 rounded-full bg-blue-50 text-blue-500 flex items-center justify-center text-lg"><i class="fas fa-shield-alt"></i></div>
+                                </div>
+                            </div>
+                            <div class="budget-card border-l-purple-500" id="wantsCard">
+                                <div class="flex justify-between items-center relative z-10">
+                                    <div><p class="text-xs font-bold text-purple-500 uppercase tracking-wider mb-1">Keinginan (<span id="wantsPct2">30</span>%)</p><h3 class="text-2xl font-bold" id="wantsAmount">Rp 0</h3></div>
+                                    <div class="w-10 h-10 rounded-full bg-purple-50 text-purple-500 flex items-center justify-center text-lg"><i class="fas fa-heart"></i></div>
+                                </div>
+                            </div>
+                            <div class="budget-card border-l-green-500" id="savingsCard">
+                                <div class="flex justify-between items-center relative z-10">
+                                    <div><p class="text-xs font-bold text-green-500 uppercase tracking-wider mb-1">Tabungan (<span id="savingsPct2">20</span>%)</p><h3 class="text-2xl font-bold" id="savingsAmount">Rp 0</h3></div>
+                                    <div class="w-10 h-10 rounded-full bg-green-50 text-green-500 flex items-center justify-center text-lg"><i class="fas fa-leaf"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Financial Goal Tracker -->
+                    <div class="glass-card p-6">
+                        <h2 class="text-lg font-bold text-slate-800 mb-4 flex items-center"><i class="fas fa-bullseye text-blue-500 mr-2"></i>Kalkulator Target Impian Finansial</h2>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4">
+                            <div>
+                                <label class="lbl">Nama Impian</label>
+                                <input type="text" id="goalName" placeholder="Contoh: MacBook Pro" class="inp">
+                            </div>
+                            <div>
+                                <label class="lbl">Target Harga (Rp)</label>
+                                <input type="text" id="goalAmount" placeholder="Contoh: 20.000.000" class="inp" inputmode="numeric">
+                            </div>
+                            <div>
+                                <label class="lbl">Tenggat Waktu (Bulan)</label>
+                                <input type="number" id="goalMonths" min="1" max="120" placeholder="10" class="inp">
+                            </div>
+                        </div>
+                        <div id="goalAnalysisContainer" class="hidden p-4 rounded-xl border transition-all duration-300">
+                            <!-- Dynamic analysis content -->
+                        </div>
+                    </div>
+
+                    <!-- Needs Detail -->
+                    <div class="glass-card p-6">
+                        <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-1 mb-4">
+                            <h2 class="text-lg font-bold text-slate-800 flex items-center"><i class="fas fa-list-check text-blue-500 mr-2"></i>Rincian Kebutuhan Pokok</h2>
+                            <span class="text-xs font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-full self-start sm:self-auto">Semua angka per bulan</span>
+                        </div>
+                        <div id="needsDetailGrid" class="grid grid-cols-1 min-[380px]:grid-cols-2 sm:grid-cols-3 gap-3"></div>
+                        <div class="mt-4 pt-3 border-t border-slate-100 flex justify-between items-center">
+                            <span class="text-sm text-slate-500" id="needsTotalLabel">Total Estimasi Kebutuhan</span>
+                            <span class="text-lg font-bold text-slate-800" id="needsTotalEstimated">Rp 0</span>
+                        </div>
+                    </div>
+
+                    <!-- Wants Breakdown -->
+                    <div class="glass-card p-6">
+                        <div class="flex justify-between items-end mb-5 border-b border-slate-100 pb-3">
+                            <div>
+                                <h2 class="text-lg font-bold text-slate-800 flex items-center"><i class="fas fa-robot text-purple-500 mr-2"></i>Rincian Keinginan (Gaya Hidup Cerdas)</h2>
+                                <p class="text-xs text-slate-500 mt-1">Profil: <span id="displayProfile" class="font-bold text-purple-600 bg-purple-50 px-2 py-0.5 rounded"></span></p>
+                            </div>
+                        </div>
+                        <div id="wantsItemsList" class="space-y-4"></div>
+                    </div>
+
+                    <!-- Savings Tips -->
+                    <div class="glass-card p-6">
+                        <h2 class="text-lg font-bold text-slate-800 mb-4 flex items-center"><i class="fas fa-piggy-bank text-green-500 mr-2"></i>Alokasi Tabungan & Investasi</h2>
+                        <div id="savingsTipsList" class="grid grid-cols-1 sm:grid-cols-3 gap-3"></div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Comparison Modal -->
+    <div id="comparisonModal" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/60 backdrop-blur-sm hidden animate-fade-in">
+        <div class="glass-card w-full max-w-5xl mx-4 max-h-[85vh] overflow-y-auto p-4 sm:p-6 md:p-8 relative shadow-2xl border-white/80">
+            <button id="closeComparisonBtn" class="absolute top-5 right-5 w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-slate-800 transition-all flex items-center justify-center">
+                <i class="fas fa-times"></i>
+            </button>
+            <h2 class="text-xl font-bold text-slate-800 mb-6 flex items-center"><i class="fas fa-code-compare text-blue-500 mr-2.5"></i>Perbandingan Skenario Anggaran</h2>
+            
+            <div class="overflow-x-auto rounded-xl border border-slate-100 shadow-inner bg-white/40">
+                <table class="w-full text-left border-collapse min-w-[700px]">
+                    <thead>
+                        <tr id="comparisonTableHeader" class="border-b border-slate-200 bg-slate-50/50 text-xs font-bold text-slate-500 uppercase tracking-wider">
+                            <th class="py-4 px-5 w-[200px]">Kriteria / Pos</th>
+                            <!-- Dynamic scenario columns -->
+                        </tr>
+                    </thead>
+                    <tbody id="comparisonTableBody" class="divide-y divide-slate-100 text-sm font-semibold text-slate-700 bg-white/30">
+                        <!-- Dynamic comparison rows -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="smartbudget-config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

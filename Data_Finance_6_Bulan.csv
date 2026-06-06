@@ -1,0 +1,713 @@
+Date,Title,Amount,Type,Category,Account
+2025-11-20,Periksa ke Klinik,143000,EXPENSE,Kesehatan,Dana
+2025-11-20,Print & Fotocopy,104000,EXPENSE,Edukasi,Tunai
+2025-11-20,Peralatan Dapur,154000,EXPENSE,Belanja Rumah Tangga,BRI
+2025-11-21,"Beli Sembako (Beras, Telur)",73000,EXPENSE,Belanja Rumah Tangga,Dana
+2025-11-21,Cukur / Pangkas Rambut,16000,EXPENSE,Perawatan Diri,Tunai
+2025-11-22,Kursus Online (Dicoding/Udemy),15000,EXPENSE,Edukasi,GoPay
+2025-11-22,Parkir Kampus,78000,EXPENSE,Transportasi,BRI
+2025-11-22,GoFood / GrabFood,26000,EXPENSE,Makan & Minum,BRI
+2025-11-23,Internet / Wi-Fi Kos,245000,EXPENSE,Tagihan,BNI
+2025-11-24,Cukur / Pangkas Rambut,67000,EXPENSE,Perawatan Diri,Tunai
+2025-11-24,Parkir Kampus,38000,EXPENSE,Transportasi,GoPay
+2025-11-24,Beli Bensin Motor,46000,EXPENSE,Transportasi,OVO
+2025-11-24,Uang Saku dari Orang Tua,1259000,INCOME,Uang Saku,BNI
+2025-11-25,Periksa ke Klinik,11000,EXPENSE,Kesehatan,GoPay
+2025-11-25,Mie Ayam / Bakso,30000,EXPENSE,Makan & Minum,BRI
+2025-11-25,Alfamart,145000,EXPENSE,Belanja Rumah Tangga,Dana
+2025-11-25,Peralatan Dapur,96000,EXPENSE,Belanja Rumah Tangga,Tunai
+2025-11-26,Beli Bensin Motor,50000,EXPENSE,Transportasi,Tunai
+2025-11-26,Beli Baju di Toko,223000,EXPENSE,Pakaian & Fashion,OVO
+2025-11-26,Sumbangan Teman Sakit,46000,EXPENSE,Donasi & Amal,BRI
+2025-11-27,Beli Baju di Toko,248000,EXPENSE,Pakaian & Fashion,OVO
+2025-11-27,Beli Vitamin / Suplemen,41000,EXPENSE,Kesehatan,GoPay
+2025-11-27,Angkot / Trans,57000,EXPENSE,Transportasi,BNI
+2025-11-28,Angkot / Trans,43000,EXPENSE,Transportasi,OVO
+2025-11-28,Beli Buku / Modul Kuliah,129000,EXPENSE,Edukasi,GoPay
+2025-11-28,Cukur / Pangkas Rambut,40000,EXPENSE,Perawatan Diri,GoPay
+2025-11-28,Beli Mie Instan,15000,EXPENSE,Makan & Minum,BNI
+2025-11-28,Makan Malam di Luar,37000,EXPENSE,Makan & Minum,OVO
+2025-11-29,Cukur / Pangkas Rambut,70000,EXPENSE,Perawatan Diri,GoPay
+2025-11-29,Bayar Kos Bulanan,98000,EXPENSE,Tagihan,OVO
+2025-11-29,Bayar SKS / UKT Cicilan,147000,EXPENSE,Edukasi,BRI
+2025-11-29,Kantin Kampus,44000,EXPENSE,Makan & Minum,GoPay
+2025-11-29,Shopee Fashion,180000,EXPENSE,Pakaian & Fashion,OVO
+2025-11-29,"Beli Sembako (Beras, Telur)",153000,EXPENSE,Belanja Rumah Tangga,BNI
+2025-11-29,Spotify Premium,38000,EXPENSE,Hiburan,BRI
+2025-11-30,Iuran Organisasi,24000,EXPENSE,Donasi & Amal,GoPay
+2025-12-01,Cukur / Pangkas Rambut,42000,EXPENSE,Perawatan Diri,Tunai
+2025-12-01,Cukur / Pangkas Rambut,21000,EXPENSE,Perawatan Diri,BNI
+2025-12-01,Halodoc / Konsultasi Online,106000,EXPENSE,Kesehatan,Tunai
+2025-12-01,GoFood / GrabFood,26000,EXPENSE,Makan & Minum,Dana
+2025-12-02,Makan Siang Bersama Teman,38000,EXPENSE,Makan & Minum,BRI
+2025-12-02,Beasiswa PPA / BBP,438000,INCOME,Beasiswa,BRI
+2025-12-03,Nongkrong Kafe,96000,EXPENSE,Hiburan,GoPay
+2025-12-03,Tol,27000,EXPENSE,Transportasi,Tunai
+2025-12-03,Jajan Minuman Kekinian,36000,EXPENSE,Makan & Minum,GoPay
+2025-12-03,Iuran BPJS,101000,EXPENSE,Kesehatan,Dana
+2025-12-03,Beli Buku / Modul Kuliah,114000,EXPENSE,Edukasi,Tunai
+2025-12-04,Beli Skincare Murah,71000,EXPENSE,Perawatan Diri,BRI
+2025-12-04,Bayar Kontrakan,300000,EXPENSE,Tagihan,OVO
+2025-12-04,Beli Sabun / Sampo / Deterjen,163000,EXPENSE,Belanja Rumah Tangga,BRI
+2025-12-05,Beli Roti / Sarapan,32000,EXPENSE,Makan & Minum,BRI
+2025-12-05,Cukur / Pangkas Rambut,23000,EXPENSE,Perawatan Diri,Tunai
+2025-12-06,Beli Seragam / Jas Almamater,206000,EXPENSE,Pakaian & Fashion,Tunai
+2025-12-06,Makan Malam di Luar,38000,EXPENSE,Makan & Minum,Dana
+2025-12-06,Beli Sepatu / Sandal,187000,EXPENSE,Pakaian & Fashion,GoPay
+2025-12-06,Servis / Ganti Oli Motor,49000,EXPENSE,Transportasi,GoPay
+2025-12-07,Halodoc / Konsultasi Online,94000,EXPENSE,Kesehatan,GoPay
+2025-12-07,Gojek / Grab,35000,EXPENSE,Transportasi,Dana
+2025-12-07,Karaoke Dengan Teman,64000,EXPENSE,Hiburan,BRI
+2025-12-07,Infaq Masjid Kampus,17000,EXPENSE,Donasi & Amal,BRI
+2025-12-07,Tol,24000,EXPENSE,Transportasi,BRI
+2025-12-07,Indomaret,106000,EXPENSE,Belanja Rumah Tangga,OVO
+2025-12-08,Kopi Kapal Api / Nescafe,38000,EXPENSE,Makan & Minum,BNI
+2025-12-08,Ojek Konvensional,10000,EXPENSE,Transportasi,OVO
+2025-12-08,GoFood / GrabFood,33000,EXPENSE,Makan & Minum,Tunai
+2025-12-08,Facial Wash,74000,EXPENSE,Perawatan Diri,BRI
+2025-12-08,Beli Roti / Sarapan,48000,EXPENSE,Makan & Minum,Tunai
+2025-12-08,Indomaret,138000,EXPENSE,Belanja Rumah Tangga,Dana
+2025-12-08,Makan Siang Bersama Teman,31000,EXPENSE,Makan & Minum,Tunai
+2025-12-09,Cukur / Pangkas Rambut,71000,EXPENSE,Perawatan Diri,OVO
+2025-12-09,Servis / Ganti Oli Motor,57000,EXPENSE,Transportasi,GoPay
+2025-12-10,Makan Siang Bersama Teman,27000,EXPENSE,Makan & Minum,GoPay
+2025-12-10,Beli Mie Instan,45000,EXPENSE,Makan & Minum,Dana
+2025-12-10,Indomaret,116000,EXPENSE,Belanja Rumah Tangga,GoPay
+2025-12-10,Jajan Minuman Kekinian,43000,EXPENSE,Makan & Minum,OVO
+2025-12-10,Mie Ayam / Bakso,36000,EXPENSE,Makan & Minum,Tunai
+2025-12-10,Facial Wash,59000,EXPENSE,Perawatan Diri,BNI
+2025-12-11,Jajan Minuman Kekinian,24000,EXPENSE,Makan & Minum,GoPay
+2025-12-11,Bayar Kontrakan,410000,EXPENSE,Tagihan,BRI
+2025-12-12,Mie Ayam / Bakso,44000,EXPENSE,Makan & Minum,BRI
+2025-12-12,Beli Baju di Toko,85000,EXPENSE,Pakaian & Fashion,OVO
+2025-12-13,Makan Malam di Luar,30000,EXPENSE,Makan & Minum,OVO
+2025-12-13,Jalan ke Mall,18000,EXPENSE,Hiburan,OVO
+2025-12-13,"Beli Sembako (Beras, Telur)",122000,EXPENSE,Belanja Rumah Tangga,OVO
+2025-12-13,Halodoc / Konsultasi Online,15000,EXPENSE,Kesehatan,GoPay
+2025-12-13,Kopi Kapal Api / Nescafe,23000,EXPENSE,Makan & Minum,Tunai
+2025-12-13,Beli Roti / Sarapan,32000,EXPENSE,Makan & Minum,BRI
+2025-12-13,Cukur / Pangkas Rambut,14000,EXPENSE,Perawatan Diri,Tunai
+2025-12-13,Jajan Minuman Kekinian,17000,EXPENSE,Makan & Minum,GoPay
+2025-12-13,Makan Siang Bersama Teman,9000,EXPENSE,Makan & Minum,OVO
+2025-12-14,Beli Seragam / Jas Almamater,100000,EXPENSE,Pakaian & Fashion,Dana
+2025-12-14,Alfamart,140000,EXPENSE,Belanja Rumah Tangga,Tunai
+2025-12-15,Tagihan Listrik,141000,EXPENSE,Tagihan,OVO
+2025-12-15,"Beli Sembako (Beras, Telur)",102000,EXPENSE,Belanja Rumah Tangga,Tunai
+2025-12-15,Beli Sabun / Sampo / Deterjen,137000,EXPENSE,Belanja Rumah Tangga,BNI
+2025-12-16,Mie Ayam / Bakso,15000,EXPENSE,Makan & Minum,GoPay
+2025-12-16,Biaya Seminar / Workshop,134000,EXPENSE,Edukasi,Dana
+2025-12-16,Internet / Wi-Fi Kos,753000,EXPENSE,Tagihan,OVO
+2025-12-16,Servis / Ganti Oli Motor,37000,EXPENSE,Transportasi,BNI
+2025-12-16,Iuran Organisasi,20000,EXPENSE,Donasi & Amal,OVO
+2025-12-17,Beli Roti / Sarapan,23000,EXPENSE,Makan & Minum,GoPay
+2025-12-17,Distro / Thrift Shop,197000,EXPENSE,Pakaian & Fashion,GoPay
+2025-12-17,GoFood / GrabFood,40000,EXPENSE,Makan & Minum,OVO
+2025-12-19,GoFood / GrabFood,32000,EXPENSE,Makan & Minum,BRI
+2025-12-19,Kantin Kampus,25000,EXPENSE,Makan & Minum,Dana
+2025-12-19,Main Game Mobile,55000,EXPENSE,Hiburan,OVO
+2025-12-19,Main Game Mobile,75000,EXPENSE,Hiburan,GoPay
+2025-12-19,Shopee Fashion,161000,EXPENSE,Pakaian & Fashion,BRI
+2025-12-19,GoFood / GrabFood,14000,EXPENSE,Makan & Minum,BNI
+2025-12-19,Kursus Online (Dicoding/Udemy),134000,EXPENSE,Edukasi,Dana
+2025-12-20,Parkir Kampus,28000,EXPENSE,Transportasi,Dana
+2025-12-20,Beli Buku / Modul Kuliah,70000,EXPENSE,Edukasi,BRI
+2025-12-20,Beli Mie Instan,34000,EXPENSE,Makan & Minum,BRI
+2025-12-20,Cukur / Pangkas Rambut,68000,EXPENSE,Perawatan Diri,OVO
+2025-12-20,Infaq Masjid Kampus,35000,EXPENSE,Donasi & Amal,BNI
+2025-12-20,Beli Mie Instan,29000,EXPENSE,Makan & Minum,BNI
+2025-12-20,Makan Malam di Luar,48000,EXPENSE,Makan & Minum,OVO
+2025-12-21,Beli Roti / Sarapan,9000,EXPENSE,Makan & Minum,OVO
+2025-12-21,Kopi Kapal Api / Nescafe,20000,EXPENSE,Makan & Minum,Tunai
+2025-12-21,Peralatan Dapur,30000,EXPENSE,Belanja Rumah Tangga,BRI
+2025-12-21,Shopee Fashion,129000,EXPENSE,Pakaian & Fashion,Dana
+2025-12-21,Beli Sabun Mandi / Deodoran,46000,EXPENSE,Perawatan Diri,GoPay
+2025-12-22,Beli Obat di Apotek,150000,EXPENSE,Kesehatan,OVO
+2025-12-22,Beli Bensin Motor,61000,EXPENSE,Transportasi,Dana
+2025-12-22,Jajan Minuman Kekinian,24000,EXPENSE,Makan & Minum,BRI
+2025-12-22,Makan Siang Bersama Teman,26000,EXPENSE,Makan & Minum,BNI
+2025-12-23,Minyak Rambut / Pomade,34000,EXPENSE,Perawatan Diri,Tunai
+2025-12-23,Beli Bensin Motor,76000,EXPENSE,Transportasi,BNI
+2025-12-24,Mie Ayam / Bakso,36000,EXPENSE,Makan & Minum,GoPay
+2025-12-24,Makan Malam di Luar,30000,EXPENSE,Makan & Minum,Dana
+2025-12-24,Mie Ayam / Bakso,38000,EXPENSE,Makan & Minum,Tunai
+2025-12-25,Beli Sabun / Sampo / Deterjen,91000,EXPENSE,Belanja Rumah Tangga,OVO
+2025-12-25,Kursus Online (Dicoding/Udemy),106000,EXPENSE,Edukasi,BNI
+2025-12-25,Karaoke Dengan Teman,30000,EXPENSE,Hiburan,Dana
+2025-12-25,Kopi Kapal Api / Nescafe,22000,EXPENSE,Makan & Minum,GoPay
+2025-12-25,Mie Ayam / Bakso,20000,EXPENSE,Makan & Minum,Tunai
+2025-12-25,Bayar Kos Bulanan,652000,EXPENSE,Tagihan,BRI
+2025-12-25,Uang Saku dari Orang Tua,1563000,INCOME,Uang Saku,Dana
+2025-12-25,Makan Siang Bersama Teman,26000,EXPENSE,Makan & Minum,Dana
+2025-12-26,Beli Roti / Sarapan,9000,EXPENSE,Makan & Minum,Tunai
+2025-12-26,Alfamart,174000,EXPENSE,Belanja Rumah Tangga,GoPay
+2025-12-26,Kantin Kampus,25000,EXPENSE,Makan & Minum,Dana
+2025-12-27,Kopi Kapal Api / Nescafe,40000,EXPENSE,Makan & Minum,Dana
+2025-12-27,Beli Skincare Murah,53000,EXPENSE,Perawatan Diri,BRI
+2025-12-27,Kursus Online (Dicoding/Udemy),164000,EXPENSE,Edukasi,Dana
+2025-12-27,Jajan Minuman Kekinian,36000,EXPENSE,Makan & Minum,OVO
+2025-12-27,Ojek Konvensional,55000,EXPENSE,Transportasi,BNI
+2025-12-27,Kantin Kampus,24000,EXPENSE,Makan & Minum,BNI
+2025-12-27,Beli Bensin Motor,31000,EXPENSE,Transportasi,Dana
+2025-12-28,Beli Mie Instan,12000,EXPENSE,Makan & Minum,Dana
+2025-12-28,Gojek / Grab,25000,EXPENSE,Transportasi,BRI
+2025-12-28,Nongkrong Kafe,81000,EXPENSE,Hiburan,Dana
+2025-12-28,Mie Ayam / Bakso,42000,EXPENSE,Makan & Minum,OVO
+2025-12-29,Warteg / Warung Nasi,49000,EXPENSE,Makan & Minum,OVO
+2025-12-29,Kantin Kampus,47000,EXPENSE,Makan & Minum,BNI
+2025-12-29,Kantin Kampus,39000,EXPENSE,Makan & Minum,Tunai
+2025-12-29,Karaoke Dengan Teman,92000,EXPENSE,Hiburan,Tunai
+2025-12-30,Nongkrong Kafe,60000,EXPENSE,Hiburan,GoPay
+2025-12-30,Makan Malam di Luar,24000,EXPENSE,Makan & Minum,GoPay
+2025-12-30,Peralatan Dapur,154000,EXPENSE,Belanja Rumah Tangga,Dana
+2025-12-30,Biaya Seminar / Workshop,84000,EXPENSE,Edukasi,GoPay
+2025-12-30,Air PDAM,762000,EXPENSE,Tagihan,Dana
+2025-12-30,Servis / Ganti Oli Motor,6000,EXPENSE,Transportasi,BNI
+2025-12-30,Shopee Fashion,120000,EXPENSE,Pakaian & Fashion,BNI
+2025-12-31,Iuran Organisasi,21000,EXPENSE,Donasi & Amal,OVO
+2025-12-31,Mie Ayam / Bakso,30000,EXPENSE,Makan & Minum,BNI
+2025-12-31,Tol,6000,EXPENSE,Transportasi,Tunai
+2025-12-31,Tol,20000,EXPENSE,Transportasi,GoPay
+2026-01-01,Servis / Ganti Oli Motor,53000,EXPENSE,Transportasi,BRI
+2026-01-01,Infaq Masjid Kampus,34000,EXPENSE,Donasi & Amal,BNI
+2026-01-02,Beli Bensin Motor,55000,EXPENSE,Transportasi,OVO
+2026-01-02,Ojek Konvensional,25000,EXPENSE,Transportasi,BNI
+2026-01-02,Iuran BPJS,136000,EXPENSE,Kesehatan,BRI
+2026-01-02,Makan Siang Bersama Teman,27000,EXPENSE,Makan & Minum,Tunai
+2026-01-02,Sedekah Jumat,35000,EXPENSE,Donasi & Amal,BNI
+2026-01-03,Futsal / Badminton,99000,EXPENSE,Hiburan,BNI
+2026-01-03,Nongkrong Kafe,96000,EXPENSE,Hiburan,BNI
+2026-01-05,"Beli Sembako (Beras, Telur)",194000,EXPENSE,Belanja Rumah Tangga,OVO
+2026-01-05,Indomaret,126000,EXPENSE,Belanja Rumah Tangga,GoPay
+2026-01-05,Beli Sabun Mandi / Deodoran,14000,EXPENSE,Perawatan Diri,GoPay
+2026-01-06,Peralatan Dapur,196000,EXPENSE,Belanja Rumah Tangga,OVO
+2026-01-06,GoFood / GrabFood,49000,EXPENSE,Makan & Minum,OVO
+2026-01-06,Karaoke Dengan Teman,72000,EXPENSE,Hiburan,BNI
+2026-01-07,Makan Malam di Luar,41000,EXPENSE,Makan & Minum,BNI
+2026-01-07,Sedekah Jumat,15000,EXPENSE,Donasi & Amal,GoPay
+2026-01-07,Makan Malam di Luar,15000,EXPENSE,Makan & Minum,Dana
+2026-01-08,Sedekah Jumat,14000,EXPENSE,Donasi & Amal,Tunai
+2026-01-08,Iuran Lingkungan RT,654000,EXPENSE,Tagihan,BNI
+2026-01-08,Beli Obat di Apotek,75000,EXPENSE,Kesehatan,OVO
+2026-01-08,Sumbangan Teman Sakit,37000,EXPENSE,Donasi & Amal,OVO
+2026-01-09,Bayar SKS / UKT Cicilan,109000,EXPENSE,Edukasi,Dana
+2026-01-09,Shopee / Tokopedia,162000,EXPENSE,Belanja Rumah Tangga,BNI
+2026-01-09,Beli Vitamin / Suplemen,50000,EXPENSE,Kesehatan,GoPay
+2026-01-10,Beli Sabun / Sampo / Deterjen,57000,EXPENSE,Belanja Rumah Tangga,BRI
+2026-01-10,Makan Siang Bersama Teman,41000,EXPENSE,Makan & Minum,BRI
+2026-01-10,Karaoke Dengan Teman,38000,EXPENSE,Hiburan,OVO
+2026-01-10,Beli Roti / Sarapan,22000,EXPENSE,Makan & Minum,BRI
+2026-01-10,Bayar Kos Bulanan,499000,EXPENSE,Tagihan,BNI
+2026-01-11,Air PDAM,196000,EXPENSE,Tagihan,OVO
+2026-01-11,Peralatan Dapur,99000,EXPENSE,Belanja Rumah Tangga,GoPay
+2026-01-11,Iuran Lingkungan RT,275000,EXPENSE,Tagihan,GoPay
+2026-01-12,Periksa ke Klinik,146000,EXPENSE,Kesehatan,BRI
+2026-01-12,Nonton Bioskop XXI,62000,EXPENSE,Hiburan,BNI
+2026-01-12,Beli Sepatu / Sandal,221000,EXPENSE,Pakaian & Fashion,BRI
+2026-01-13,Beli Sabun / Sampo / Deterjen,192000,EXPENSE,Belanja Rumah Tangga,BRI
+2026-01-13,GoFood / GrabFood,29000,EXPENSE,Makan & Minum,Tunai
+2026-01-13,Mie Ayam / Bakso,8000,EXPENSE,Makan & Minum,Tunai
+2026-01-13,Beli Roti / Sarapan,40000,EXPENSE,Makan & Minum,Tunai
+2026-01-14,Bayar Kos Bulanan,148000,EXPENSE,Tagihan,OVO
+2026-01-14,Internet / Wi-Fi Kos,213000,EXPENSE,Tagihan,GoPay
+2026-01-14,Gojek / Grab,39000,EXPENSE,Transportasi,Dana
+2026-01-14,Mie Ayam / Bakso,45000,EXPENSE,Makan & Minum,Tunai
+2026-01-15,GoFood / GrabFood,14000,EXPENSE,Makan & Minum,Tunai
+2026-01-15,Warteg / Warung Nasi,39000,EXPENSE,Makan & Minum,OVO
+2026-01-15,Nonton Bioskop XXI,89000,EXPENSE,Hiburan,BNI
+2026-01-15,Internet / Wi-Fi Kos,406000,EXPENSE,Tagihan,GoPay
+2026-01-15,Ojek Konvensional,60000,EXPENSE,Transportasi,Tunai
+2026-01-16,Halodoc / Konsultasi Online,73000,EXPENSE,Kesehatan,GoPay
+2026-01-16,Jajan Minuman Kekinian,41000,EXPENSE,Makan & Minum,Dana
+2026-01-18,Makan Malam di Luar,17000,EXPENSE,Makan & Minum,Tunai
+2026-01-18,Mie Ayam / Bakso,46000,EXPENSE,Makan & Minum,BRI
+2026-01-18,Beli Skincare Murah,60000,EXPENSE,Perawatan Diri,Tunai
+2026-01-19,Cukur / Pangkas Rambut,77000,EXPENSE,Perawatan Diri,GoPay
+2026-01-20,Iuran Lingkungan RT,107000,EXPENSE,Tagihan,Tunai
+2026-01-20,Alat Tulis,125000,EXPENSE,Edukasi,OVO
+2026-01-20,Bayar Kontrakan,66000,EXPENSE,Tagihan,OVO
+2026-01-20,Mie Ayam / Bakso,18000,EXPENSE,Makan & Minum,OVO
+2026-01-21,Gojek / Grab,41000,EXPENSE,Transportasi,OVO
+2026-01-21,Angkot / Trans,57000,EXPENSE,Transportasi,OVO
+2026-01-21,Uang Saku dari Orang Tua,1257000,INCOME,Uang Saku,Dana
+2026-01-21,Ojek Konvensional,36000,EXPENSE,Transportasi,Dana
+2026-01-21,Servis / Ganti Oli Motor,11000,EXPENSE,Transportasi,BNI
+2026-01-21,Beli Roti / Sarapan,39000,EXPENSE,Makan & Minum,Tunai
+2026-01-22,Futsal / Badminton,52000,EXPENSE,Hiburan,Dana
+2026-01-22,Beli Sepatu / Sandal,116000,EXPENSE,Pakaian & Fashion,BNI
+2026-01-23,Paket Data Seluler,605000,EXPENSE,Tagihan,BRI
+2026-01-23,Kopi Kapal Api / Nescafe,24000,EXPENSE,Makan & Minum,BNI
+2026-01-23,GoFood / GrabFood,27000,EXPENSE,Makan & Minum,BNI
+2026-01-23,Minyak Rambut / Pomade,74000,EXPENSE,Perawatan Diri,Dana
+2026-01-24,Mie Ayam / Bakso,9000,EXPENSE,Makan & Minum,OVO
+2026-01-24,Tol,49000,EXPENSE,Transportasi,Tunai
+2026-01-24,Air PDAM,249000,EXPENSE,Tagihan,Dana
+2026-01-25,Alfamart,96000,EXPENSE,Belanja Rumah Tangga,GoPay
+2026-01-25,Beli Buku / Modul Kuliah,74000,EXPENSE,Edukasi,BNI
+2026-01-25,Main Game Mobile,16000,EXPENSE,Hiburan,Tunai
+2026-01-26,GoFood / GrabFood,9000,EXPENSE,Makan & Minum,BRI
+2026-01-26,Spotify Premium,99000,EXPENSE,Hiburan,OVO
+2026-01-26,Warteg / Warung Nasi,37000,EXPENSE,Makan & Minum,GoPay
+2026-01-26,Ojek Konvensional,27000,EXPENSE,Transportasi,BRI
+2026-01-27,Infaq Masjid Kampus,49000,EXPENSE,Donasi & Amal,BRI
+2026-01-27,Beli Baju di Toko,72000,EXPENSE,Pakaian & Fashion,OVO
+2026-01-27,Bayar Kos Bulanan,263000,EXPENSE,Tagihan,BRI
+2026-01-27,Periksa ke Klinik,24000,EXPENSE,Kesehatan,Tunai
+2026-01-28,Makan Malam di Luar,39000,EXPENSE,Makan & Minum,Dana
+2026-01-28,Beli Sabun / Sampo / Deterjen,124000,EXPENSE,Belanja Rumah Tangga,OVO
+2026-01-29,GoFood / GrabFood,12000,EXPENSE,Makan & Minum,BNI
+2026-01-29,Beli Minyak Goreng,94000,EXPENSE,Belanja Rumah Tangga,BRI
+2026-01-29,Periksa ke Klinik,28000,EXPENSE,Kesehatan,Tunai
+2026-01-29,Spotify Premium,47000,EXPENSE,Hiburan,BNI
+2026-01-30,Cukur / Pangkas Rambut,60000,EXPENSE,Perawatan Diri,Tunai
+2026-01-30,Beli Sabun Mandi / Deodoran,25000,EXPENSE,Perawatan Diri,BRI
+2026-01-30,Jalan ke Mall,60000,EXPENSE,Hiburan,BRI
+2026-01-31,Bayar SKS / UKT Cicilan,126000,EXPENSE,Edukasi,Tunai
+2026-01-31,Jalan ke Mall,15000,EXPENSE,Hiburan,BNI
+2026-01-31,Periksa ke Klinik,81000,EXPENSE,Kesehatan,BRI
+2026-01-31,Gojek / Grab,12000,EXPENSE,Transportasi,Tunai
+2026-01-31,Gojek / Grab,49000,EXPENSE,Transportasi,Tunai
+2026-02-01,Beli Vitamin / Suplemen,94000,EXPENSE,Kesehatan,BNI
+2026-02-01,Shopee Fashion,60000,EXPENSE,Pakaian & Fashion,Tunai
+2026-02-01,Shopee / Tokopedia,95000,EXPENSE,Belanja Rumah Tangga,OVO
+2026-02-01,Servis / Ganti Oli Motor,67000,EXPENSE,Transportasi,BRI
+2026-02-01,Bayar SKS / UKT Cicilan,138000,EXPENSE,Edukasi,BNI
+2026-02-01,Kopi Kapal Api / Nescafe,43000,EXPENSE,Makan & Minum,Dana
+2026-02-01,Beli Roti / Sarapan,13000,EXPENSE,Makan & Minum,OVO
+2026-02-01,Bayar Kos Bulanan,437000,EXPENSE,Tagihan,Dana
+2026-02-01,Servis / Ganti Oli Motor,41000,EXPENSE,Transportasi,Dana
+2026-02-01,Cukur / Pangkas Rambut,75000,EXPENSE,Perawatan Diri,OVO
+2026-02-02,Warteg / Warung Nasi,22000,EXPENSE,Makan & Minum,Dana
+2026-02-02,Tol,24000,EXPENSE,Transportasi,Tunai
+2026-02-02,Iuran Lingkungan RT,488000,EXPENSE,Tagihan,Dana
+2026-02-02,Gojek / Grab,35000,EXPENSE,Transportasi,Dana
+2026-02-02,GoFood / GrabFood,29000,EXPENSE,Makan & Minum,BNI
+2026-02-02,Warteg / Warung Nasi,44000,EXPENSE,Makan & Minum,BNI
+2026-02-03,Internet / Wi-Fi Kos,653000,EXPENSE,Tagihan,BNI
+2026-02-03,Beli Vitamin / Suplemen,39000,EXPENSE,Kesehatan,Tunai
+2026-02-03,Halodoc / Konsultasi Online,149000,EXPENSE,Kesehatan,Tunai
+2026-02-03,Paket Data Seluler,781000,EXPENSE,Tagihan,BRI
+2026-02-03,Beli Sabun Mandi / Deodoran,73000,EXPENSE,Perawatan Diri,BNI
+2026-02-03,Gojek / Grab,30000,EXPENSE,Transportasi,OVO
+2026-02-03,Iuran Organisasi,10000,EXPENSE,Donasi & Amal,Dana
+2026-02-04,Nonton Bioskop XXI,88000,EXPENSE,Hiburan,BNI
+2026-02-04,Iuran Organisasi,32000,EXPENSE,Donasi & Amal,GoPay
+2026-02-04,Sumbangan Teman Sakit,42000,EXPENSE,Donasi & Amal,OVO
+2026-02-04,Kopi Kapal Api / Nescafe,36000,EXPENSE,Makan & Minum,Tunai
+2026-02-04,Nongkrong Kafe,89000,EXPENSE,Hiburan,Tunai
+2026-02-04,Karaoke Dengan Teman,96000,EXPENSE,Hiburan,BRI
+2026-02-04,Minyak Rambut / Pomade,28000,EXPENSE,Perawatan Diri,GoPay
+2026-02-04,Shopee / Tokopedia,179000,EXPENSE,Belanja Rumah Tangga,BNI
+2026-02-04,Tol,35000,EXPENSE,Transportasi,BNI
+2026-02-05,Alat Tulis,154000,EXPENSE,Edukasi,Tunai
+2026-02-05,Kopi Kapal Api / Nescafe,30000,EXPENSE,Makan & Minum,BRI
+2026-02-05,Beli Mie Instan,30000,EXPENSE,Makan & Minum,Dana
+2026-02-05,Beli Sepatu / Sandal,112000,EXPENSE,Pakaian & Fashion,OVO
+2026-02-05,Paket Data Seluler,772000,EXPENSE,Tagihan,BNI
+2026-02-06,Facial Wash,56000,EXPENSE,Perawatan Diri,OVO
+2026-02-06,Nongkrong Kafe,51000,EXPENSE,Hiburan,GoPay
+2026-02-07,Shopee / Tokopedia,110000,EXPENSE,Belanja Rumah Tangga,OVO
+2026-02-07,Servis / Ganti Oli Motor,14000,EXPENSE,Transportasi,BNI
+2026-02-07,Beli Bensin Motor,51000,EXPENSE,Transportasi,BNI
+2026-02-07,Beli Sabun Mandi / Deodoran,76000,EXPENSE,Perawatan Diri,BNI
+2026-02-07,Makan Siang Bersama Teman,13000,EXPENSE,Makan & Minum,Tunai
+2026-02-07,Biaya Seminar / Workshop,15000,EXPENSE,Edukasi,Tunai
+2026-02-07,Gojek / Grab,14000,EXPENSE,Transportasi,Tunai
+2026-02-08,Beli Mie Instan,11000,EXPENSE,Makan & Minum,GoPay
+2026-02-08,Kursus Online (Dicoding/Udemy),168000,EXPENSE,Edukasi,BNI
+2026-02-08,Print & Fotocopy,181000,EXPENSE,Edukasi,OVO
+2026-02-09,Spotify Premium,66000,EXPENSE,Hiburan,GoPay
+2026-02-09,Freelance / Part-time,778000,INCOME,Pendapatan Lain,GoPay
+2026-02-09,Warteg / Warung Nasi,32000,EXPENSE,Makan & Minum,OVO
+2026-02-09,Cukur / Pangkas Rambut,26000,EXPENSE,Perawatan Diri,BNI
+2026-02-09,Servis / Ganti Oli Motor,74000,EXPENSE,Transportasi,BNI
+2026-02-10,Kantin Kampus,19000,EXPENSE,Makan & Minum,BNI
+2026-02-10,Minyak Rambut / Pomade,45000,EXPENSE,Perawatan Diri,OVO
+2026-02-10,Beli Mie Instan,47000,EXPENSE,Makan & Minum,Dana
+2026-02-11,Ojek Konvensional,23000,EXPENSE,Transportasi,BRI
+2026-02-11,Angkot / Trans,37000,EXPENSE,Transportasi,Tunai
+2026-02-11,Iuran Organisasi,40000,EXPENSE,Donasi & Amal,Tunai
+2026-02-11,"Beli Sembako (Beras, Telur)",162000,EXPENSE,Belanja Rumah Tangga,BRI
+2026-02-11,Bayar Kontrakan,217000,EXPENSE,Tagihan,BRI
+2026-02-11,Warteg / Warung Nasi,11000,EXPENSE,Makan & Minum,Dana
+2026-02-11,Distro / Thrift Shop,154000,EXPENSE,Pakaian & Fashion,Dana
+2026-02-12,Ojek Konvensional,79000,EXPENSE,Transportasi,BNI
+2026-02-12,Bayar Kontrakan,612000,EXPENSE,Tagihan,Dana
+2026-02-12,Internet / Wi-Fi Kos,263000,EXPENSE,Tagihan,BNI
+2026-02-12,Beli Mie Instan,34000,EXPENSE,Makan & Minum,GoPay
+2026-02-12,Karaoke Dengan Teman,26000,EXPENSE,Hiburan,BNI
+2026-02-13,Futsal / Badminton,73000,EXPENSE,Hiburan,Tunai
+2026-02-13,Beli Buku / Modul Kuliah,52000,EXPENSE,Edukasi,Tunai
+2026-02-13,Minyak Rambut / Pomade,30000,EXPENSE,Perawatan Diri,Dana
+2026-02-13,Warteg / Warung Nasi,34000,EXPENSE,Makan & Minum,BRI
+2026-02-14,Sedekah Jumat,29000,EXPENSE,Donasi & Amal,BRI
+2026-02-14,Iuran BPJS,109000,EXPENSE,Kesehatan,Dana
+2026-02-14,Bayar SKS / UKT Cicilan,112000,EXPENSE,Edukasi,BNI
+2026-02-15,Bayar Kontrakan,130000,EXPENSE,Tagihan,BRI
+2026-02-15,Sedekah Jumat,40000,EXPENSE,Donasi & Amal,BRI
+2026-02-15,Mie Ayam / Bakso,9000,EXPENSE,Makan & Minum,BNI
+2026-02-15,Bayar Kos Bulanan,779000,EXPENSE,Tagihan,Dana
+2026-02-16,Facial Wash,73000,EXPENSE,Perawatan Diri,GoPay
+2026-02-16,Makan Malam di Luar,36000,EXPENSE,Makan & Minum,BNI
+2026-02-16,Paket Data Seluler,99000,EXPENSE,Tagihan,BNI
+2026-02-16,Beli Roti / Sarapan,42000,EXPENSE,Makan & Minum,OVO
+2026-02-17,Iuran Organisasi,48000,EXPENSE,Donasi & Amal,Dana
+2026-02-17,Parkir Kampus,50000,EXPENSE,Transportasi,Dana
+2026-02-17,Iuran BPJS,111000,EXPENSE,Kesehatan,Tunai
+2026-02-17,Indomaret,107000,EXPENSE,Belanja Rumah Tangga,BNI
+2026-02-18,Makan Siang Bersama Teman,25000,EXPENSE,Makan & Minum,GoPay
+2026-02-19,GoFood / GrabFood,14000,EXPENSE,Makan & Minum,GoPay
+2026-02-19,Beli Mie Instan,27000,EXPENSE,Makan & Minum,Dana
+2026-02-20,Mie Ayam / Bakso,42000,EXPENSE,Makan & Minum,Dana
+2026-02-20,Makan Siang Bersama Teman,21000,EXPENSE,Makan & Minum,BRI
+2026-02-20,Nonton Bioskop XXI,30000,EXPENSE,Hiburan,GoPay
+2026-02-20,Beli Roti / Sarapan,23000,EXPENSE,Makan & Minum,Dana
+2026-02-21,"Beli Sembako (Beras, Telur)",57000,EXPENSE,Belanja Rumah Tangga,GoPay
+2026-02-21,Uang Saku dari Orang Tua,976000,INCOME,Uang Saku,Tunai
+2026-02-22,Kantin Kampus,37000,EXPENSE,Makan & Minum,GoPay
+2026-02-22,Parkir Kampus,26000,EXPENSE,Transportasi,GoPay
+2026-02-22,Nongkrong Kafe,40000,EXPENSE,Hiburan,BNI
+2026-02-22,Sedekah Jumat,38000,EXPENSE,Donasi & Amal,BRI
+2026-02-23,Indomaret,55000,EXPENSE,Belanja Rumah Tangga,OVO
+2026-02-23,Sumbangan Teman Sakit,16000,EXPENSE,Donasi & Amal,OVO
+2026-02-24,Nongkrong Kafe,84000,EXPENSE,Hiburan,GoPay
+2026-02-24,Spotify Premium,93000,EXPENSE,Hiburan,OVO
+2026-02-24,Kursus Online (Dicoding/Udemy),152000,EXPENSE,Edukasi,BNI
+2026-02-24,Tagihan Listrik,364000,EXPENSE,Tagihan,OVO
+2026-02-24,Parkir Kampus,59000,EXPENSE,Transportasi,Tunai
+2026-02-25,Jalan ke Mall,33000,EXPENSE,Hiburan,OVO
+2026-02-25,Angkot / Trans,54000,EXPENSE,Transportasi,Tunai
+2026-02-25,Peralatan Dapur,89000,EXPENSE,Belanja Rumah Tangga,Tunai
+2026-02-25,Beli Buku / Modul Kuliah,156000,EXPENSE,Edukasi,Tunai
+2026-02-26,Beli Roti / Sarapan,33000,EXPENSE,Makan & Minum,BNI
+2026-02-26,Warteg / Warung Nasi,27000,EXPENSE,Makan & Minum,BRI
+2026-02-26,Jajan Minuman Kekinian,32000,EXPENSE,Makan & Minum,BRI
+2026-02-26,Servis / Ganti Oli Motor,48000,EXPENSE,Transportasi,Dana
+2026-02-26,Paket Data Seluler,511000,EXPENSE,Tagihan,GoPay
+2026-02-27,Spotify Premium,82000,EXPENSE,Hiburan,Tunai
+2026-02-27,Jajan Minuman Kekinian,28000,EXPENSE,Makan & Minum,Tunai
+2026-02-27,Beasiswa PPA / BBP,449000,INCOME,Beasiswa,BRI
+2026-02-27,Makan Siang Bersama Teman,17000,EXPENSE,Makan & Minum,Tunai
+2026-02-27,Tagihan Listrik,491000,EXPENSE,Tagihan,BRI
+2026-02-27,Beli Mie Instan,45000,EXPENSE,Makan & Minum,BNI
+2026-03-01,Ojek Konvensional,55000,EXPENSE,Transportasi,GoPay
+2026-03-01,Tol,32000,EXPENSE,Transportasi,OVO
+2026-03-02,Beli Sabun Mandi / Deodoran,55000,EXPENSE,Perawatan Diri,OVO
+2026-03-02,Tol,46000,EXPENSE,Transportasi,BNI
+2026-03-02,Sedekah Jumat,43000,EXPENSE,Donasi & Amal,BRI
+2026-03-03,Iuran Lingkungan RT,762000,EXPENSE,Tagihan,BNI
+2026-03-03,Futsal / Badminton,30000,EXPENSE,Hiburan,BRI
+2026-03-03,Beli Baju di Toko,148000,EXPENSE,Pakaian & Fashion,Tunai
+2026-03-04,Indomaret,16000,EXPENSE,Belanja Rumah Tangga,Tunai
+2026-03-04,Beli Buku / Modul Kuliah,68000,EXPENSE,Edukasi,Tunai
+2026-03-05,Parkir Kampus,61000,EXPENSE,Transportasi,Tunai
+2026-03-05,Cukur / Pangkas Rambut,71000,EXPENSE,Perawatan Diri,Dana
+2026-03-05,Paket Data Seluler,209000,EXPENSE,Tagihan,BNI
+2026-03-05,Sedekah Jumat,39000,EXPENSE,Donasi & Amal,Tunai
+2026-03-05,Makan Siang Bersama Teman,44000,EXPENSE,Makan & Minum,Dana
+2026-03-06,Iuran BPJS,108000,EXPENSE,Kesehatan,BNI
+2026-03-06,Beli Bensin Motor,63000,EXPENSE,Transportasi,Tunai
+2026-03-06,Beli Obat di Apotek,56000,EXPENSE,Kesehatan,OVO
+2026-03-07,Bayar Kontrakan,646000,EXPENSE,Tagihan,GoPay
+2026-03-07,Karaoke Dengan Teman,51000,EXPENSE,Hiburan,GoPay
+2026-03-07,Peralatan Dapur,196000,EXPENSE,Belanja Rumah Tangga,BRI
+2026-03-07,Warteg / Warung Nasi,16000,EXPENSE,Makan & Minum,BRI
+2026-03-08,Ojek Konvensional,55000,EXPENSE,Transportasi,OVO
+2026-03-08,Beli Minyak Goreng,158000,EXPENSE,Belanja Rumah Tangga,BRI
+2026-03-08,Minyak Rambut / Pomade,79000,EXPENSE,Perawatan Diri,Dana
+2026-03-08,Beli Roti / Sarapan,27000,EXPENSE,Makan & Minum,BNI
+2026-03-08,Gojek / Grab,19000,EXPENSE,Transportasi,OVO
+2026-03-09,Alfamart,162000,EXPENSE,Belanja Rumah Tangga,Tunai
+2026-03-09,Bayar Kos Bulanan,378000,EXPENSE,Tagihan,GoPay
+2026-03-09,Kursus Online (Dicoding/Udemy),156000,EXPENSE,Edukasi,BRI
+2026-03-09,Tol,36000,EXPENSE,Transportasi,BNI
+2026-03-10,Servis / Ganti Oli Motor,48000,EXPENSE,Transportasi,Dana
+2026-03-10,Minyak Rambut / Pomade,38000,EXPENSE,Perawatan Diri,Tunai
+2026-03-10,Beli Obat di Apotek,100000,EXPENSE,Kesehatan,Dana
+2026-03-10,Air PDAM,92000,EXPENSE,Tagihan,BNI
+2026-03-10,Mie Ayam / Bakso,14000,EXPENSE,Makan & Minum,Dana
+2026-03-10,Periksa ke Klinik,105000,EXPENSE,Kesehatan,Dana
+2026-03-10,Beli Minyak Goreng,192000,EXPENSE,Belanja Rumah Tangga,OVO
+2026-03-11,Gojek / Grab,71000,EXPENSE,Transportasi,BNI
+2026-03-11,Beli Sabun Mandi / Deodoran,22000,EXPENSE,Perawatan Diri,Dana
+2026-03-12,Ojek Konvensional,27000,EXPENSE,Transportasi,GoPay
+2026-03-12,Beli Roti / Sarapan,22000,EXPENSE,Makan & Minum,GoPay
+2026-03-12,Angkot / Trans,68000,EXPENSE,Transportasi,GoPay
+2026-03-12,Makan Malam di Luar,19000,EXPENSE,Makan & Minum,Dana
+2026-03-12,Gojek / Grab,37000,EXPENSE,Transportasi,Tunai
+2026-03-12,Futsal / Badminton,35000,EXPENSE,Hiburan,Dana
+2026-03-12,Peralatan Dapur,26000,EXPENSE,Belanja Rumah Tangga,BRI
+2026-03-13,Infaq Masjid Kampus,28000,EXPENSE,Donasi & Amal,BNI
+2026-03-13,Bayar Kos Bulanan,564000,EXPENSE,Tagihan,Dana
+2026-03-13,Ojek Konvensional,47000,EXPENSE,Transportasi,BRI
+2026-03-13,Peralatan Dapur,35000,EXPENSE,Belanja Rumah Tangga,BRI
+2026-03-13,Beli Seragam / Jas Almamater,168000,EXPENSE,Pakaian & Fashion,GoPay
+2026-03-13,Warteg / Warung Nasi,28000,EXPENSE,Makan & Minum,GoPay
+2026-03-13,Iuran Lingkungan RT,299000,EXPENSE,Tagihan,BRI
+2026-03-14,Makan Malam di Luar,10000,EXPENSE,Makan & Minum,BRI
+2026-03-14,Beli Bensin Motor,66000,EXPENSE,Transportasi,BRI
+2026-03-14,Mie Ayam / Bakso,39000,EXPENSE,Makan & Minum,GoPay
+2026-03-15,Kantin Kampus,13000,EXPENSE,Makan & Minum,OVO
+2026-03-15,Biaya Seminar / Workshop,129000,EXPENSE,Edukasi,GoPay
+2026-03-15,Kantin Kampus,26000,EXPENSE,Makan & Minum,BRI
+2026-03-15,GoFood / GrabFood,41000,EXPENSE,Makan & Minum,BRI
+2026-03-15,Cukur / Pangkas Rambut,47000,EXPENSE,Perawatan Diri,OVO
+2026-03-15,Angkot / Trans,73000,EXPENSE,Transportasi,Dana
+2026-03-15,Mie Ayam / Bakso,26000,EXPENSE,Makan & Minum,OVO
+2026-03-16,Bayar SKS / UKT Cicilan,20000,EXPENSE,Edukasi,OVO
+2026-03-16,Bayar SKS / UKT Cicilan,94000,EXPENSE,Edukasi,Tunai
+2026-03-16,Angkot / Trans,38000,EXPENSE,Transportasi,GoPay
+2026-03-16,"Beli Sembako (Beras, Telur)",114000,EXPENSE,Belanja Rumah Tangga,GoPay
+2026-03-16,Minyak Rambut / Pomade,15000,EXPENSE,Perawatan Diri,Dana
+2026-03-16,GoFood / GrabFood,16000,EXPENSE,Makan & Minum,BRI
+2026-03-16,Kopi Kapal Api / Nescafe,30000,EXPENSE,Makan & Minum,OVO
+2026-03-16,Beli Seragam / Jas Almamater,128000,EXPENSE,Pakaian & Fashion,Dana
+2026-03-16,Halodoc / Konsultasi Online,146000,EXPENSE,Kesehatan,OVO
+2026-03-17,Ojek Konvensional,31000,EXPENSE,Transportasi,Dana
+2026-03-17,Beli Buku / Modul Kuliah,7000,EXPENSE,Edukasi,BRI
+2026-03-17,Internet / Wi-Fi Kos,716000,EXPENSE,Tagihan,BNI
+2026-03-17,Main Game Mobile,47000,EXPENSE,Hiburan,GoPay
+2026-03-17,Servis / Ganti Oli Motor,17000,EXPENSE,Transportasi,BNI
+2026-03-17,Servis / Ganti Oli Motor,11000,EXPENSE,Transportasi,BRI
+2026-03-17,Kantin Kampus,28000,EXPENSE,Makan & Minum,GoPay
+2026-03-18,GoFood / GrabFood,17000,EXPENSE,Makan & Minum,OVO
+2026-03-18,Beli Mie Instan,19000,EXPENSE,Makan & Minum,Tunai
+2026-03-18,Mie Ayam / Bakso,50000,EXPENSE,Makan & Minum,BNI
+2026-03-19,Gojek / Grab,20000,EXPENSE,Transportasi,GoPay
+2026-03-19,Ojek Konvensional,68000,EXPENSE,Transportasi,Tunai
+2026-03-20,Makan Siang Bersama Teman,48000,EXPENSE,Makan & Minum,BNI
+2026-03-20,GoFood / GrabFood,30000,EXPENSE,Makan & Minum,Dana
+2026-03-20,Infaq Masjid Kampus,31000,EXPENSE,Donasi & Amal,Dana
+2026-03-20,Beli Skincare Murah,20000,EXPENSE,Perawatan Diri,GoPay
+2026-03-20,Angkot / Trans,17000,EXPENSE,Transportasi,GoPay
+2026-03-21,Indomaret,196000,EXPENSE,Belanja Rumah Tangga,BNI
+2026-03-21,Alat Tulis,156000,EXPENSE,Edukasi,OVO
+2026-03-21,Peralatan Dapur,157000,EXPENSE,Belanja Rumah Tangga,GoPay
+2026-03-22,Warteg / Warung Nasi,25000,EXPENSE,Makan & Minum,Dana
+2026-03-22,Sedekah Jumat,14000,EXPENSE,Donasi & Amal,Dana
+2026-03-22,Nonton Bioskop XXI,23000,EXPENSE,Hiburan,Tunai
+2026-03-22,Tol,31000,EXPENSE,Transportasi,GoPay
+2026-03-22,Beli Mie Instan,16000,EXPENSE,Makan & Minum,OVO
+2026-03-22,Angkot / Trans,47000,EXPENSE,Transportasi,GoPay
+2026-03-23,Uang Saku dari Orang Tua,1296000,INCOME,Uang Saku,Tunai
+2026-03-23,Beli Minyak Goreng,94000,EXPENSE,Belanja Rumah Tangga,OVO
+2026-03-23,Jalan ke Mall,95000,EXPENSE,Hiburan,OVO
+2026-03-24,Alfamart,63000,EXPENSE,Belanja Rumah Tangga,OVO
+2026-03-24,Alfamart,129000,EXPENSE,Belanja Rumah Tangga,Dana
+2026-03-24,Jajan Minuman Kekinian,38000,EXPENSE,Makan & Minum,GoPay
+2026-03-24,Beli Vitamin / Suplemen,147000,EXPENSE,Kesehatan,BNI
+2026-03-25,Gojek / Grab,60000,EXPENSE,Transportasi,Dana
+2026-03-25,Bayar Kontrakan,515000,EXPENSE,Tagihan,OVO
+2026-03-25,Main Game Mobile,66000,EXPENSE,Hiburan,OVO
+2026-03-25,Servis / Ganti Oli Motor,64000,EXPENSE,Transportasi,OVO
+2026-03-25,Beli Mie Instan,46000,EXPENSE,Makan & Minum,Dana
+2026-03-26,GoFood / GrabFood,22000,EXPENSE,Makan & Minum,GoPay
+2026-03-26,Iuran Organisasi,21000,EXPENSE,Donasi & Amal,Dana
+2026-03-26,Spotify Premium,82000,EXPENSE,Hiburan,Dana
+2026-03-26,Beli Buku / Modul Kuliah,109000,EXPENSE,Edukasi,OVO
+2026-03-27,Periksa ke Klinik,52000,EXPENSE,Kesehatan,BRI
+2026-03-27,Iuran Lingkungan RT,82000,EXPENSE,Tagihan,BNI
+2026-03-27,Makan Malam di Luar,24000,EXPENSE,Makan & Minum,BRI
+2026-03-27,Mie Ayam / Bakso,9000,EXPENSE,Makan & Minum,BNI
+2026-03-27,Jajan Minuman Kekinian,49000,EXPENSE,Makan & Minum,BNI
+2026-03-27,Iuran BPJS,30000,EXPENSE,Kesehatan,Tunai
+2026-03-28,Shopee / Tokopedia,133000,EXPENSE,Belanja Rumah Tangga,OVO
+2026-03-28,Beli Obat di Apotek,47000,EXPENSE,Kesehatan,GoPay
+2026-03-28,Beli Sepatu / Sandal,189000,EXPENSE,Pakaian & Fashion,GoPay
+2026-03-28,Warteg / Warung Nasi,25000,EXPENSE,Makan & Minum,OVO
+2026-03-29,Sedekah Jumat,14000,EXPENSE,Donasi & Amal,Tunai
+2026-03-30,Kopi Kapal Api / Nescafe,23000,EXPENSE,Makan & Minum,BNI
+2026-03-30,Beli Seragam / Jas Almamater,209000,EXPENSE,Pakaian & Fashion,Dana
+2026-03-30,Facial Wash,48000,EXPENSE,Perawatan Diri,BNI
+2026-03-30,Kopi Kapal Api / Nescafe,13000,EXPENSE,Makan & Minum,OVO
+2026-03-31,Mie Ayam / Bakso,34000,EXPENSE,Makan & Minum,BNI
+2026-03-31,GoFood / GrabFood,36000,EXPENSE,Makan & Minum,GoPay
+2026-03-31,Air PDAM,632000,EXPENSE,Tagihan,Tunai
+2026-04-01,Kantin Kampus,39000,EXPENSE,Makan & Minum,BNI
+2026-04-01,Makan Malam di Luar,23000,EXPENSE,Makan & Minum,BNI
+2026-04-01,Kantin Kampus,41000,EXPENSE,Makan & Minum,Tunai
+2026-04-01,Minyak Rambut / Pomade,23000,EXPENSE,Perawatan Diri,Dana
+2026-04-01,Kantin Kampus,24000,EXPENSE,Makan & Minum,OVO
+2026-04-02,Indomaret,101000,EXPENSE,Belanja Rumah Tangga,Tunai
+2026-04-02,Beasiswa PPA / BBP,695000,INCOME,Beasiswa,BRI
+2026-04-02,Air PDAM,643000,EXPENSE,Tagihan,GoPay
+2026-04-03,Makan Malam di Luar,40000,EXPENSE,Makan & Minum,BNI
+2026-04-03,Distro / Thrift Shop,71000,EXPENSE,Pakaian & Fashion,Tunai
+2026-04-03,Makan Malam di Luar,34000,EXPENSE,Makan & Minum,Dana
+2026-04-03,Makan Siang Bersama Teman,12000,EXPENSE,Makan & Minum,Dana
+2026-04-04,Paket Data Seluler,634000,EXPENSE,Tagihan,OVO
+2026-04-04,Distro / Thrift Shop,75000,EXPENSE,Pakaian & Fashion,Dana
+2026-04-04,Makan Siang Bersama Teman,34000,EXPENSE,Makan & Minum,OVO
+2026-04-04,Warteg / Warung Nasi,14000,EXPENSE,Makan & Minum,OVO
+2026-04-05,Tagihan Listrik,449000,EXPENSE,Tagihan,BNI
+2026-04-05,Jalan ke Mall,17000,EXPENSE,Hiburan,OVO
+2026-04-05,Distro / Thrift Shop,142000,EXPENSE,Pakaian & Fashion,GoPay
+2026-04-05,Parkir Kampus,13000,EXPENSE,Transportasi,Tunai
+2026-04-05,Beli Roti / Sarapan,23000,EXPENSE,Makan & Minum,OVO
+2026-04-06,Beli Obat di Apotek,37000,EXPENSE,Kesehatan,OVO
+2026-04-06,Gojek / Grab,73000,EXPENSE,Transportasi,BNI
+2026-04-06,Infaq Masjid Kampus,10000,EXPENSE,Donasi & Amal,OVO
+2026-04-07,GoFood / GrabFood,30000,EXPENSE,Makan & Minum,Tunai
+2026-04-07,Jajan Minuman Kekinian,12000,EXPENSE,Makan & Minum,Dana
+2026-04-07,Warteg / Warung Nasi,46000,EXPENSE,Makan & Minum,Dana
+2026-04-07,Internet / Wi-Fi Kos,575000,EXPENSE,Tagihan,Tunai
+2026-04-07,Facial Wash,13000,EXPENSE,Perawatan Diri,Dana
+2026-04-07,Kantin Kampus,17000,EXPENSE,Makan & Minum,GoPay
+2026-04-07,Facial Wash,38000,EXPENSE,Perawatan Diri,BNI
+2026-04-07,Beli Roti / Sarapan,23000,EXPENSE,Makan & Minum,OVO
+2026-04-08,Mie Ayam / Bakso,26000,EXPENSE,Makan & Minum,GoPay
+2026-04-08,Servis / Ganti Oli Motor,29000,EXPENSE,Transportasi,GoPay
+2026-04-08,Biaya Seminar / Workshop,78000,EXPENSE,Edukasi,BRI
+2026-04-08,Spotify Premium,72000,EXPENSE,Hiburan,BNI
+2026-04-08,Shopee Fashion,87000,EXPENSE,Pakaian & Fashion,Tunai
+2026-04-09,Jalan ke Mall,59000,EXPENSE,Hiburan,BRI
+2026-04-09,Minyak Rambut / Pomade,66000,EXPENSE,Perawatan Diri,Tunai
+2026-04-09,Servis / Ganti Oli Motor,70000,EXPENSE,Transportasi,BRI
+2026-04-09,Beli Bensin Motor,6000,EXPENSE,Transportasi,OVO
+2026-04-09,Futsal / Badminton,71000,EXPENSE,Hiburan,GoPay
+2026-04-09,Tol,14000,EXPENSE,Transportasi,BRI
+2026-04-10,GoFood / GrabFood,13000,EXPENSE,Makan & Minum,GoPay
+2026-04-10,Futsal / Badminton,76000,EXPENSE,Hiburan,OVO
+2026-04-10,Mie Ayam / Bakso,31000,EXPENSE,Makan & Minum,Dana
+2026-04-10,Beli Sabun / Sampo / Deterjen,167000,EXPENSE,Belanja Rumah Tangga,BNI
+2026-04-11,Beli Vitamin / Suplemen,44000,EXPENSE,Kesehatan,Dana
+2026-04-11,Periksa ke Klinik,114000,EXPENSE,Kesehatan,GoPay
+2026-04-12,GoFood / GrabFood,14000,EXPENSE,Makan & Minum,OVO
+2026-04-12,Iuran BPJS,122000,EXPENSE,Kesehatan,Dana
+2026-04-12,Kantin Kampus,24000,EXPENSE,Makan & Minum,BRI
+2026-04-12,Mie Ayam / Bakso,31000,EXPENSE,Makan & Minum,Tunai
+2026-04-13,Alfamart,35000,EXPENSE,Belanja Rumah Tangga,Dana
+2026-04-13,Distro / Thrift Shop,82000,EXPENSE,Pakaian & Fashion,Dana
+2026-04-13,Ojek Konvensional,49000,EXPENSE,Transportasi,Dana
+2026-04-13,GoFood / GrabFood,47000,EXPENSE,Makan & Minum,BNI
+2026-04-13,Beli Roti / Sarapan,38000,EXPENSE,Makan & Minum,BRI
+2026-04-14,Shopee / Tokopedia,146000,EXPENSE,Belanja Rumah Tangga,OVO
+2026-04-14,Kopi Kapal Api / Nescafe,47000,EXPENSE,Makan & Minum,GoPay
+2026-04-14,Facial Wash,50000,EXPENSE,Perawatan Diri,BRI
+2026-04-14,Bayar Kos Bulanan,271000,EXPENSE,Tagihan,BNI
+2026-04-15,Jajan Minuman Kekinian,24000,EXPENSE,Makan & Minum,Tunai
+2026-04-15,Jalan ke Mall,28000,EXPENSE,Hiburan,BNI
+2026-04-16,Beli Minyak Goreng,167000,EXPENSE,Belanja Rumah Tangga,OVO
+2026-04-16,Parkir Kampus,19000,EXPENSE,Transportasi,BRI
+2026-04-16,Warteg / Warung Nasi,28000,EXPENSE,Makan & Minum,BNI
+2026-04-16,Makan Malam di Luar,29000,EXPENSE,Makan & Minum,BRI
+2026-04-16,"Beli Sembako (Beras, Telur)",195000,EXPENSE,Belanja Rumah Tangga,OVO
+2026-04-16,Minyak Rambut / Pomade,57000,EXPENSE,Perawatan Diri,OVO
+2026-04-17,Warteg / Warung Nasi,22000,EXPENSE,Makan & Minum,Dana
+2026-04-17,Kopi Kapal Api / Nescafe,20000,EXPENSE,Makan & Minum,GoPay
+2026-04-18,Jajan Minuman Kekinian,25000,EXPENSE,Makan & Minum,Tunai
+2026-04-18,Beli Obat di Apotek,23000,EXPENSE,Kesehatan,Tunai
+2026-04-18,Internet / Wi-Fi Kos,240000,EXPENSE,Tagihan,Tunai
+2026-04-18,Kopi Kapal Api / Nescafe,44000,EXPENSE,Makan & Minum,BRI
+2026-04-18,Makan Malam di Luar,36000,EXPENSE,Makan & Minum,Tunai
+2026-04-18,Makan Malam di Luar,49000,EXPENSE,Makan & Minum,BRI
+2026-04-19,Beli Roti / Sarapan,26000,EXPENSE,Makan & Minum,BRI
+2026-04-19,Beli Roti / Sarapan,31000,EXPENSE,Makan & Minum,GoPay
+2026-04-19,Makan Siang Bersama Teman,22000,EXPENSE,Makan & Minum,OVO
+2026-04-19,Kopi Kapal Api / Nescafe,49000,EXPENSE,Makan & Minum,BNI
+2026-04-19,Ojek Konvensional,56000,EXPENSE,Transportasi,Dana
+2026-04-20,Beli Bensin Motor,64000,EXPENSE,Transportasi,Tunai
+2026-04-21,Angkot / Trans,22000,EXPENSE,Transportasi,BNI
+2026-04-21,Futsal / Badminton,89000,EXPENSE,Hiburan,Dana
+2026-04-21,Beli Mie Instan,50000,EXPENSE,Makan & Minum,Dana
+2026-04-21,Jajan Minuman Kekinian,43000,EXPENSE,Makan & Minum,BNI
+2026-04-22,Makan Siang Bersama Teman,47000,EXPENSE,Makan & Minum,BNI
+2026-04-22,Main Game Mobile,67000,EXPENSE,Hiburan,Dana
+2026-04-22,Beli Sabun / Sampo / Deterjen,65000,EXPENSE,Belanja Rumah Tangga,BRI
+2026-04-23,Print & Fotocopy,57000,EXPENSE,Edukasi,BRI
+2026-04-23,Beli Minyak Goreng,158000,EXPENSE,Belanja Rumah Tangga,OVO
+2026-04-24,Ojek Konvensional,8000,EXPENSE,Transportasi,BNI
+2026-04-24,Uang Saku dari Orang Tua,1302000,INCOME,Uang Saku,BRI
+2026-04-24,Kopi Kapal Api / Nescafe,13000,EXPENSE,Makan & Minum,BNI
+2026-04-25,Makan Malam di Luar,31000,EXPENSE,Makan & Minum,BNI
+2026-04-26,Parkir Kampus,53000,EXPENSE,Transportasi,OVO
+2026-04-26,Servis / Ganti Oli Motor,17000,EXPENSE,Transportasi,BRI
+2026-04-26,Periksa ke Klinik,118000,EXPENSE,Kesehatan,BNI
+2026-04-26,Makan Siang Bersama Teman,43000,EXPENSE,Makan & Minum,OVO
+2026-04-26,Servis / Ganti Oli Motor,69000,EXPENSE,Transportasi,Tunai
+2026-04-26,Nonton Bioskop XXI,61000,EXPENSE,Hiburan,Tunai
+2026-04-27,Internet / Wi-Fi Kos,230000,EXPENSE,Tagihan,Tunai
+2026-04-27,Makan Malam di Luar,33000,EXPENSE,Makan & Minum,BNI
+2026-04-27,Distro / Thrift Shop,206000,EXPENSE,Pakaian & Fashion,OVO
+2026-04-27,Angkot / Trans,16000,EXPENSE,Transportasi,GoPay
+2026-04-27,Print & Fotocopy,46000,EXPENSE,Edukasi,Dana
+2026-04-27,Makan Malam di Luar,11000,EXPENSE,Makan & Minum,Dana
+2026-04-28,GoFood / GrabFood,45000,EXPENSE,Makan & Minum,BRI
+2026-04-28,Beli Roti / Sarapan,16000,EXPENSE,Makan & Minum,BRI
+2026-04-29,Makan Malam di Luar,19000,EXPENSE,Makan & Minum,BNI
+2026-04-29,Beli Obat di Apotek,50000,EXPENSE,Kesehatan,OVO
+2026-04-29,Facial Wash,52000,EXPENSE,Perawatan Diri,BNI
+2026-04-29,Tol,23000,EXPENSE,Transportasi,Dana
+2026-04-29,Mie Ayam / Bakso,22000,EXPENSE,Makan & Minum,OVO
+2026-04-30,Beli Minyak Goreng,140000,EXPENSE,Belanja Rumah Tangga,OVO
+2026-04-30,Facial Wash,12000,EXPENSE,Perawatan Diri,BRI
+2026-05-01,Beli Baju di Toko,184000,EXPENSE,Pakaian & Fashion,Dana
+2026-05-01,Air PDAM,724000,EXPENSE,Tagihan,BRI
+2026-05-01,Parkir Kampus,34000,EXPENSE,Transportasi,OVO
+2026-05-02,Tagihan Listrik,574000,EXPENSE,Tagihan,BRI
+2026-05-02,Nongkrong Kafe,22000,EXPENSE,Hiburan,Dana
+2026-05-02,Angkot / Trans,74000,EXPENSE,Transportasi,GoPay
+2026-05-02,Ojek Konvensional,35000,EXPENSE,Transportasi,OVO
+2026-05-03,Bayar Kontrakan,192000,EXPENSE,Tagihan,BNI
+2026-05-03,Beasiswa PPA / BBP,312000,INCOME,Beasiswa,BRI
+2026-05-03,Kopi Kapal Api / Nescafe,11000,EXPENSE,Makan & Minum,Tunai
+2026-05-03,Beli Sabun Mandi / Deodoran,56000,EXPENSE,Perawatan Diri,BRI
+2026-05-03,Netflix / Disney+ Bareng,81000,EXPENSE,Hiburan,OVO
+2026-05-03,Nongkrong Kafe,67000,EXPENSE,Hiburan,Tunai
+2026-05-04,"Beli Sembako (Beras, Telur)",197000,EXPENSE,Belanja Rumah Tangga,OVO
+2026-05-04,Sumbangan Teman Sakit,41000,EXPENSE,Donasi & Amal,GoPay
+2026-05-04,Nonton Bioskop XXI,89000,EXPENSE,Hiburan,BNI
+2026-05-05,Sumbangan Teman Sakit,20000,EXPENSE,Donasi & Amal,Dana
+2026-05-05,Paket Data Seluler,551000,EXPENSE,Tagihan,OVO
+2026-05-05,Kantin Kampus,42000,EXPENSE,Makan & Minum,GoPay
+2026-05-05,Bayar SKS / UKT Cicilan,155000,EXPENSE,Edukasi,OVO
+2026-05-05,Jajan Minuman Kekinian,14000,EXPENSE,Makan & Minum,GoPay
+2026-05-06,GoFood / GrabFood,15000,EXPENSE,Makan & Minum,OVO
+2026-05-06,Air PDAM,686000,EXPENSE,Tagihan,GoPay
+2026-05-06,Beli Obat di Apotek,79000,EXPENSE,Kesehatan,GoPay
+2026-05-07,Beli Sepatu / Sandal,113000,EXPENSE,Pakaian & Fashion,BNI
+2026-05-07,Makan Malam di Luar,46000,EXPENSE,Makan & Minum,Tunai
+2026-05-07,Beli Buku / Modul Kuliah,70000,EXPENSE,Edukasi,BNI
+2026-05-07,Kantin Kampus,45000,EXPENSE,Makan & Minum,Tunai
+2026-05-07,Ojek Konvensional,68000,EXPENSE,Transportasi,Tunai
+2026-05-07,Servis / Ganti Oli Motor,9000,EXPENSE,Transportasi,GoPay
+2026-05-07,Beli Buku / Modul Kuliah,196000,EXPENSE,Edukasi,BRI
+2026-05-07,Peralatan Dapur,59000,EXPENSE,Belanja Rumah Tangga,Dana
+2026-05-08,Nongkrong Kafe,53000,EXPENSE,Hiburan,Tunai
+2026-05-08,Parkir Kampus,63000,EXPENSE,Transportasi,Tunai
+2026-05-08,Netflix / Disney+ Bareng,58000,EXPENSE,Hiburan,GoPay
+2026-05-08,Beli Mie Instan,28000,EXPENSE,Makan & Minum,BRI
+2026-05-09,Beli Sabun / Sampo / Deterjen,156000,EXPENSE,Belanja Rumah Tangga,OVO
+2026-05-09,Angkot / Trans,38000,EXPENSE,Transportasi,Dana
+2026-05-10,Freelance / Part-time,219000,INCOME,Pendapatan Lain,GoPay
+2026-05-10,Warteg / Warung Nasi,13000,EXPENSE,Makan & Minum,BNI
+2026-05-10,Infaq Masjid Kampus,47000,EXPENSE,Donasi & Amal,Tunai
+2026-05-10,Distro / Thrift Shop,240000,EXPENSE,Pakaian & Fashion,BRI
+2026-05-11,Beli Sabun Mandi / Deodoran,53000,EXPENSE,Perawatan Diri,Dana
+2026-05-11,Jalan ke Mall,89000,EXPENSE,Hiburan,OVO
+2026-05-11,Beli Sabun Mandi / Deodoran,24000,EXPENSE,Perawatan Diri,OVO
+2026-05-11,Parkir Kampus,16000,EXPENSE,Transportasi,OVO
+2026-05-11,Cukur / Pangkas Rambut,64000,EXPENSE,Perawatan Diri,Tunai
+2026-05-12,Bayar SKS / UKT Cicilan,80000,EXPENSE,Edukasi,BRI
+2026-05-12,GoFood / GrabFood,33000,EXPENSE,Makan & Minum,BNI
+2026-05-12,Paket Data Seluler,536000,EXPENSE,Tagihan,BRI
+2026-05-12,Kopi Kapal Api / Nescafe,42000,EXPENSE,Makan & Minum,Dana
+2026-05-13,Makan Siang Bersama Teman,20000,EXPENSE,Makan & Minum,BRI
+2026-05-13,Bayar SKS / UKT Cicilan,28000,EXPENSE,Edukasi,GoPay
+2026-05-13,Beli Roti / Sarapan,31000,EXPENSE,Makan & Minum,Dana
+2026-05-13,Cukur / Pangkas Rambut,25000,EXPENSE,Perawatan Diri,BRI
+2026-05-14,Jajan Minuman Kekinian,21000,EXPENSE,Makan & Minum,BNI
+2026-05-14,Parkir Kampus,25000,EXPENSE,Transportasi,Tunai
+2026-05-14,Sedekah Jumat,32000,EXPENSE,Donasi & Amal,Tunai
+2026-05-14,Makan Siang Bersama Teman,22000,EXPENSE,Makan & Minum,GoPay
+2026-05-15,Makan Siang Bersama Teman,28000,EXPENSE,Makan & Minum,Dana
+2026-05-15,Karaoke Dengan Teman,37000,EXPENSE,Hiburan,Tunai
+2026-05-15,Kursus Online (Dicoding/Udemy),14000,EXPENSE,Edukasi,GoPay
+2026-05-16,Air PDAM,349000,EXPENSE,Tagihan,Tunai
+2026-05-17,Kopi Kapal Api / Nescafe,37000,EXPENSE,Makan & Minum,Tunai
+2026-05-18,Shopee Fashion,226000,EXPENSE,Pakaian & Fashion,BNI
+2026-05-18,Halodoc / Konsultasi Online,121000,EXPENSE,Kesehatan,Tunai
+2026-05-18,Beli Sabun / Sampo / Deterjen,41000,EXPENSE,Belanja Rumah Tangga,Dana
+2026-05-18,Kopi Kapal Api / Nescafe,18000,EXPENSE,Makan & Minum,BNI
+2026-05-19,Beli Bensin Motor,47000,EXPENSE,Transportasi,GoPay
+2026-05-19,GoFood / GrabFood,18000,EXPENSE,Makan & Minum,OVO
+2026-05-19,Kursus Online (Dicoding/Udemy),81000,EXPENSE,Edukasi,OVO
