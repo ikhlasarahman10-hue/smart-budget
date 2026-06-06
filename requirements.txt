@@ -6,3 +6,5 @@ numpy==2.4.4
 scikit-learn==1.8.0
 pytest==9.0.2
 httpx==0.28.1
+google-generativeai
+
