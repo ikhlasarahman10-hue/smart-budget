@@ -624,6 +624,12 @@ class BudgetRecommender:
                 f"Status kesehatan keuangan adalah {health_status} dengan rasio pengeluaran {raw_needs_estimated/income if income > 0 else 0.5:.2f}."
             )
 
+        # Update Makan Harian desc dynamically based on the final amount
+        if "Makan Harian" in needs_detail:
+            daily_food = needs_detail["Makan Harian"]["amount"] // 30
+            suffix = " (disesuaikan budget)" if "disesuaikan budget" in needs_detail["Makan Harian"]["desc"] else ""
+            needs_detail["Makan Harian"]["desc"] = f"Warung/kantin sekitar Rp {daily_food:,.0f}/hari{suffix}"
+
         # -------------------------------------------------------
         # STEP 6: Susun response JSON
         # -------------------------------------------------------

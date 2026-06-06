@@ -139,7 +139,13 @@ const createInfoCard = (item) => {
 
     const desc = document.createElement('p');
     desc.className = 'text-[11px] text-slate-400 mt-0.5';
-    desc.textContent = item.desc || '';
+    
+    let displayDesc = item.desc || '';
+    if (item.name === "Makan Harian") {
+        const dailyFood = Math.round(item.amount / 30);
+        displayDesc = `Warung/kantin sekitar ${formatRupiah(dailyFood)}/hari`;
+    }
+    desc.textContent = displayDesc;
 
     div.append(header, amount, desc);
     return div;
